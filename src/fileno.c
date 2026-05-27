@@ -20,7 +20,13 @@
  *  DEALINGS IN THE SOFTWARE.
  *
  */
-#include <lauxhlib.h>
+// depend
+#include "lauxhlib.h"
+// lua
+#include <lauxlib.h>
+// system
+#include <stdio.h>
+#include <unistd.h>
 
 static int fileno_lua(lua_State *L)
 {
